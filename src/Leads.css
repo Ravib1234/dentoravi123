@@ -1,0 +1,70 @@
+.btn-align{
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px 0;
+}
+.custom-Row{
+  margin: 15px;
+}
+.jumpstart-tab{
+  padding: 15px;
+}
+.licenses-tab{
+  padding: 15px;
+}
+.contracts{
+  padding: 15px;
+}
+.marketing{
+  padding: 15px;
+}
+.jumpStart{
+  width: 280px;
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.pi-chart-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  flex-wrap: wrap;
+  padding-bottom: 60px;
+
+}
+.top-space{
+  padding-top: 60px;
+}
+.pi-chart-related{
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #6A6A6A;
+}
+.total-count{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.total-count span{
+  position: absolute;
+  top: 52%;
+}
+.total-count-text{
+  font-family: 'Poppins', sans-serif;
+ color:#1e1e1e;
+ font-size: 13px;
+ font-weight: 600;
+}
+.total-fields{
+  color: #3a3a3a;
+  font-family: 'Poppins', sans-serif;
+}
+
+@media screen and (max-width: 1100px) {
+  .pi-chart-container{
+    justify-content: center;
+  }
+}

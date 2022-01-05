@@ -1,0 +1,99 @@
+type BizOwner @model {
+  id: ID!
+  ownerID: String
+  username: String
+  role: String
+  status: String
+  lname: String
+  fname: String
+  street: String
+  unit: String
+  city: String
+  state: String
+  zip: String
+
+  questionnaireId: String
+
+  businessName: String
+  businessDBAName: String
+  businessLogo: String
+  businessEmail: String
+  businessPhone: String
+  businessURL: String
+  practiceType: String
+  mobileClinicType: String
+
+  missionStatement: String
+  visionStatement: String
+  aboutBusiness: String
+  ownerBiodata: String
+
+  businessLicenseNumber: String
+  businessLicenseAcquiredDate: String
+  businessLicenseExpiryDate: String
+  
+  professionalLicenseName: String
+  professionalLicenseNumber: String
+  professionalLicenseAcquiredDate: String
+  professionalLicenseExpiryDate: String
+
+  hygieneAssociationMembership: String
+  hygieneAssociationMembershipExpiryDate: String
+  aDAMembership: String
+  aDAMembershipExpiryDate: String
+  continuingEducationHours: String
+  continuingEducationHoursExpiryDate: String
+  cPRNumber: String
+  cPRNumberExpiryDate: String
+
+
+  financialInstituteName: String
+
+
+  primaryDentist: String
+  primaryDentistPhone: String
+  primaryDentistEmail: String
+  secondaryDentist: String
+  secondaryDentistPhone: String
+  secondaryDentistEmail: String
+  
+  lawyerName: String
+  lawyerPhone: String
+  lawyerEmail: String
+  accountantName: String
+  accountantPhone: String
+  accountantEmail: String
+
+  websiteDesigner: String
+  websiteSupport: String
+
+  targetMarket: String
+  socialMediaMarketing: String
+  oldfashionedMarketing: String
+  businessReviewsURL: String
+
+  module1ActionsCompleted: String
+  module2ActionsCompleted: String
+  module3ActionsCompleted: String
+  module4ActionsCompleted: String
+  module5ActionsCompleted: String
+
+
+}
+
+type RegistrationQns @model {
+  id: ID!
+  questionnaireId: String
+  passion: String
+  othersInterest: String
+  planB: String
+  pricePoint: String
+  competition: String
+  growBusiness: String
+  insuranceNeeds: String
+  costOfEntry: String
+  monthlyLivingExpenses: String
+  readyAndDriven: String
+  additionalNotes1: String
+  additionalNotes2: String
+}

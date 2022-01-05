@@ -1,0 +1,86 @@
+.GetinTouch{
+ color: #428bca;
+ font-family: 'Source Sans Pro', arial, sans-serif;
+}
+.GetinTouch-btm-line{
+    background-color: #6dabe1 ;
+    height: 1px ;
+    margin-bottom: 15px;
+}
+.top-space-for-nav{
+    margin-top: 100px;
+}
+.PhoneNumber-Contact-Us{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 15px 0;
+}
+.PhoneNumber-Contact-Us>span{
+    color: #636363;
+    font-family:'Poppins', sans-serif ;
+   }
+.Email-Contact-Us{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 15px 0;
+
+}
+.Email-Contact-Us>span{
+ color: #636363;
+ font-family:'Poppins', sans-serif ;
+}
+.social-icons-Contact-Us{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 15px 0;
+
+}
+.send-btn-contact-us{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 15px 0;
+
+}
+.google-icon{
+    font-size: 40px;
+    margin-right: 10px;
+}
+.Facebook-icon{
+    font-size: 40px;
+    color: #166fe5;
+    margin-right: 10px;
+}
+.twitter-icon{
+    color: #1d9bf0;
+    font-size: 40px;
+    margin-right: 10px;
+}
+.Phone-Icon{
+  font-size: 20px;
+  color: #428bca;
+  margin-right: 10px;
+}
+.Email-Icon{
+    font-size: 20px;
+    color: #428bca;
+    margin-right: 10px;
+}
+.support-content{
+    font-family:'Poppins', sans-serif ;
+  font-size: 15px;
+}
+@media screen and (max-width: 575px){
+
+    .social-icons-Contact-Us{
+        justify-content: center;
+        align-items: center;
+    }
+}
